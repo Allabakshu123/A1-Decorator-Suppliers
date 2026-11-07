@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Stock & Equipment - A1 Decorator & Suppliers</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans antialiased">
+
+    <!-- Header Bar -->
+    <header class="bg-gray-900 border-b border-gray-800 py-4 px-6 sticky top-0 z-50 flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+            <a href="index.html" class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-gray-950 font-black text-xl shadow-lg">
+                A1
+            </a>
+            <div>
+                <h1 class="text-base md:text-lg font-bold text-white uppercase tracking-wider">Rental Stock & Equipment</h1>
+                <p class="text-xs text-gray-400">A1 Decorator & Suppliers (Prop: S. Allabakash)</p>
+            </div>
+        </div>
+        <a href="index.html" class="bg-gray-800 hover:bg-gray-700 text-amber-400 border border-amber-500/30 px-4 py-2 rounded-xl text-xs font-semibold transition-all">
+            <i class="fa-solid fa-arrow-left mr-1"></i> Back to Home
+        </a>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <span class="text-amber-400 text-xs font-bold uppercase tracking-widest bg-amber-500/10 px-3 py-1 rounded-full">Available For Rent</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white mt-3 mb-3">Our Complete Rental Inventory</h2>
+            <p class="text-gray-400 text-sm">Explore our wide range of event chairs, cooking vessels, stoves, drums, and cooling appliances. Click any image to zoom in.</p>
+        </div>
+
+        <!-- SECTION 1: CHAIRS & SEATING -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold text-white mb-6 border-b border-gray-800 pb-3 flex items-center">
+                <i class="fa-solid fa-chair text-amber-400 mr-3"></i> Chairs & Royal Seating
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Chair 1 -->
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-amber-500/50 transition-all group">
+                    <div class="h-60 overflow-hidden bg-gray-950 relative cursor-pointer" onclick="openLightbox('chair.jpeg', 'Royal Throne Chair')">
+                        <img src="chair.jpeg" alt="Royal Throne Chair" onerror="this.src='https://images.unsplash.com/photo-1580481077494-e3299ac25694?auto=format&fit=crop&q=80&w=800'" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-xs font-semibold">
+                            <i class="fa-solid fa-magnifying-glass-plus mr-1.5 text-amber-400"></i> Click to Zoom
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-bold text-white text-sm mb-1">Royal Throne Chair</h4>
+                        <p class="text-xs text-gray-400 mb-3">Velvet red & silver finish for bride/groom.</p>
+                        <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Royal%20Throne%20Chairs." target="_blank" class="w-full block text-center bg-amber-500 hover:bg-amber-400 text-gray-950 font-bold py-2 rounded-xl text-xs transition-all">
+                            <i class="fa-brands fa-whatsapp mr-1"></i> Rent on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Chair 2 -->
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-amber-500/50 transition-all group">
+                    <div class="h-60 overflow-hidden bg-gray-950 relative cursor-pointer" onclick="openLightbox('chair1.jpg', 'Royal Dunlop / VIP Chairs')">
+                        <img src="chair1.jpg" alt="Royal Dunlop Chairs" onerror="this.src='https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&q=80&w=800'" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-xs font-semibold">
+                            <i class="fa-solid fa-magnifying-glass-plus mr-1.5 text-amber-400"></i> Click to Zoom
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-bold text-white text-sm mb-1">Royal Dunlop VIP Chairs</h4>
+                        <p class="text-xs text-gray-400 mb-3">Premium cushioned event seating sets.</p>
+                        <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Royal%20Dunlop%20VIP%20Chairs." target="_blank" class="w-full block text-center bg-amber-500 hover:bg-amber-400 text-gray-950 font-bold py-2 rounded-xl text-xs transition-all">
+                            <i class="fa-brands fa-whatsapp mr-1"></i> Rent on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Chair 3 -->
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-amber-500/50 transition-all group">
+                    <div class="h-60 overflow-hidden bg-gray-950 relative cursor-pointer" onclick="openLightbox('chair2.jpeg', 'Standard Plastic Chairs')">
+                        <img src="chair2.jpeg" alt="Standard Plastic Chairs" onerror="this.src='https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&q=80&w=800'" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-xs font-semibold">
+                            <i class="fa-solid fa-magnifying-glass-plus mr-1.5 text-amber-400"></i> Click to Zoom
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-bold text-white text-sm mb-1">Standard Plastic Chairs</h4>
+                        <p class="text-xs text-gray-400 mb-3">Sturdy chairs available in bulk quantities.</p>
+                        <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Standard%20Plastic%20Chairs." target="_blank" class="w-full block text-center bg-amber-500 hover:bg-amber-400 text-gray-950 font-bold py-2 rounded-xl text-xs transition-all">
+                            <i class="fa-brands fa-whatsapp mr-1"></i> Rent on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Chair 4 -->
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-amber-500/50 transition-all group">
+                    <div class="h-60 overflow-hidden bg-gray-950 relative cursor-pointer" onclick="openLightbox('chair3.jpeg', 'Royal Golden Sofa Set')">
+                        <img src="chair3.jpeg" alt="Royal Golden Sofa Set" onerror="this.src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=800'" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-xs font-semibold">
+                            <i class="fa-solid fa-magnifying-glass-plus mr-1.5 text-amber-400"></i> Click to Zoom
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-bold text-white text-sm mb-1">Royal Golden Sofa Set</h4>
+                        <p class="text-xs text-gray-400 mb-3">Luxurious golden carved sofa for receptions.</p>
+                        <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Royal%20Golden%20Sofa%20Sets." target="_blank" class="w-full block text-center bg-amber-500 hover:bg-amber-400 text-gray-950 font-bold py-2 rounded-xl text-xs transition-all">
+                            <i class="fa-brands fa-whatsapp mr-1"></i> Rent on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SECTION 2: COOKING VESSELS (DEGCHI) -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold text-white mb-6 border-b border-gray-800 pb-3 flex items-center">
+                <i class="fa-solid fa-utensils text-amber-400 mr-3"></i> Cooking Vessels (All Sizes / Degchi)
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-pot-food"></i>
+                        </div>
+                        <h4 class="font-bold text-white text-base mb-2">Large Catering Degchis</h4>
+                        <p class="text-xs text-gray-400 mb-4">Heavy-duty aluminum cooking vessels available in all large capacities for weddings and community feasts (Biryani vessels).</p>
+                    </div>
+                    <a href="https://wa.me/919491420236?text=Hi,%20I%20need%20Large%20Cooking%20Vessels%20(Degchi)%20for%20rent." target="_blank" class="w-full text-center bg-gray-800 hover:bg-amber-500 hover:text-gray-950 text-amber-400 font-bold py-2.5 rounded-xl border border-amber-500/30 text-xs transition-all">
+                        Inquire Sizes & Rates
+                    </a>
+                </div>
+
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-bowl-food"></i>
+                        </div>
+                        <h4 class="font-bold text-white text-base mb-2">Medium & Small Vessels</h4>
+                        <p class="text-xs text-gray-400 mb-4">Various sizes of pots, handis, and boiling vessels for curries, dal, and side dishes.</p>
+                    </div>
+                    <a href="https://wa.me/919491420236?text=Hi,%20I%20need%20Medium%20and%20Small%20Cooking%20Vessels%20for%20rent." target="_blank" class="w-full text-center bg-gray-800 hover:bg-amber-500 hover:text-gray-950 text-amber-400 font-bold py-2.5 rounded-xl border border-amber-500/30 text-xs transition-all">
+                        Inquire Sizes & Rates
+                    </a>
+                </div>
+
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-plate-wheat"></i>
+                        </div>
+                        <h4 class="font-bold text-white text-base mb-2">Serving Utensils & Plates</h4>
+                        <p class="text-xs text-gray-400 mb-4">Large serving spoons, ladles, trays, buckets, and dining plates for catering teams.</p>
+                    </div>
+                    <a href="https://wa.me/919491420236?text=Hi,%20I%20need%20serving%20utensils%20and%20plates%20for%20rent." target="_blank" class="w-full text-center bg-gray-800 hover:bg-amber-500 hover:text-gray-950 text-amber-400 font-bold py-2.5 rounded-xl border border-amber-500/30 text-xs transition-all">
+                        Inquire Utensils
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SECTION 3: STOVES (GAS & WOODEN) -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold text-white mb-6 border-b border-gray-800 pb-3 flex items-center">
+                <i class="fa-solid fa-fire-burner text-amber-400 mr-3"></i> Cooking Stoves (Gas & Wooden Stoves)
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-burn"></i>
+                        </div>
+                        <h4 class="font-bold text-white text-base mb-2">Commercial Gas Stoves & Burners</h4>
+                        <p class="text-xs text-gray-400 mb-4">High-pressure commercial gas burners and multi-burner stands designed for fast bulk cooking during functions.</p>
+                    </div>
+                    <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Commercial%20Gas%20Stoves." target="_blank" class="w-full text-center bg-gray-800 hover:bg-amber-500 hover:text-gray-950 text-amber-400 font-bold py-2.5 rounded-xl border border-amber-500/30 text-xs transition-all">
+                        Inquire Gas Stoves
+                    </a>
+                </div>
+
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-fire"></i>
+                        </div>
+                        <h4 class="font-bold text-white text-base mb-2">Traditional Wooden Stoves</h4>
+                        <p class="text-xs text-gray-400 mb-4">Heavy-duty traditional wooden/firewood stoves (bhattis) for authentic large-scale wedding cooking and feasts.</p>
+                    </div>
+                    <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Traditional%20Wooden%20Stoves%20(Bhatti)." target="_blank" class="w-full text-center bg-gray-800 hover:bg-amber-500 hover:text-gray-950 text-amber-400 font-bold py-2.5 rounded-xl border border-amber-500/30 text-xs transition-all">
+                        Inquire Wooden Stoves
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SECTION 4: WATER DRUMS & COOLING (FANS & COOLERS) -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold text-white mb-6 border-b border-gray-800 pb-3 flex items-center">
+                <i class="fa-solid fa-water text-amber-400 mr-3"></i> Water Drums, Table Fans & Coolers
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-bottle-water"></i>
+                        </div>
+                        <h4 class="font-bold text-white text-base mb-2">Heavy-Duty Water Drums</h4>
+                        <p class="text-xs text-gray-400 mb-4">Clean, high-capacity water storage drums for drinking water and kitchen washing during events.</p>
+                    </div>
+                    <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Water%20Drums." target="_blank" class="w-full text-center bg-gray-800 hover:bg-amber-500 hover:text-gray-950 text-amber-400 font-bold py-2.5 rounded-xl border border-amber-500/30 text-xs transition-all">
+                        Inquire Water Drums
+                    </a>
+                </div>
+
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-fan"></i>
+                        </div>
+                        <h4 class="font-bold text-white text-base mb-2">Table Fans & Pedestal Fans</h4>
+                        <p class="text-xs text-gray-400 mb-4">High-speed table fans and standing pedestal fans to keep guests comfortable throughout the venue.</p>
+                    </div>
+                    <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Table%20and%20Pedestal%20Fans." target="_blank" class="w-full text-center bg-gray-800 hover:bg-amber-500 hover:text-gray-950 text-amber-400 font-bold py-2.5 rounded-xl border border-amber-500/30 text-xs transition-all">
+                        Inquire Fans
+                    </a>
+                </div>
+
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+                        <h4 class="font-bold text-white text-base mb-2">Air Coolers</h4>
+                        <p class="text-xs text-gray-400 mb-4">Large desert air coolers for powerful cooling during summer functions and gatherings.</p>
+                    </div>
+                    <a href="https://wa.me/919491420236?text=Hi,%20I%20want%20to%20rent%20Air%20Coolers." target="_blank" class="w-full text-center bg-gray-800 hover:bg-amber-500 hover:text-gray-950 text-amber-400 font-bold py-2.5 rounded-xl border border-amber-500/30 text-xs transition-all">
+                        Inquire Coolers
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Lightbox Modal for Zooming -->
+    <div id="lightboxModal" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4 backdrop-blur-md">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-3xl hover:text-amber-400 transition-colors bg-gray-900/60 w-12 h-12 rounded-full flex items-center justify-center border border-gray-700">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="max-w-5xl max-h-[90vh] flex flex-col items-center">
+            <img id="lightboxImg" src="" alt="Zoomed Item" class="max-w-full max-h-[80vh] object-contain rounded-2xl shadow-2xl border border-gray-800">
+            <p id="lightboxCaption" class="text-white text-base font-semibold mt-4 tracking-wide"></p>
+        </div>
+    </div>
+
+    <!-- JavaScript for Lightbox Zoom -->
+    <script>
+        function openLightbox(imgSrc, captionText) {
+            const modal = document.getElementById('lightboxModal');
+            const img = document.getElementById('lightboxImg');
+            const caption = document.getElementById('lightboxCaption');
+
+            img.src = imgSrc;
+            caption.innerText = captionText;
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('lightboxModal');
+            modal.classList.remove('flex');
+            modal.classList.add('hidden');
+        }
+
+        document.getElementById('lightboxModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeLightbox();
+            }
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 text-center py-8 text-xs text-gray-400 mt-20">
+        <p>A1 Decorator & Suppliers | Contact: +91 94914 20236</p>
+        <p class="mt-1">&copy; 2026 All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

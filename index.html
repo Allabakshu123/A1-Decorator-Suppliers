@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Decorator & Suppliers</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans antialiased">
+
+    <!-- Landing / Hero Section Only -->
+    <section class="relative min-h-screen flex flex-col justify-between overflow-hidden bg-gray-900">
+        <!-- Background Image with Inline Fallbacks for hero.jpg / hero.png / hero -->
+        <div class="absolute inset-0 z-0">
+            <img src="hero.jpg" onerror="this.onerror=null; this.src='hero.png';" alt="A1 Decorator & Suppliers Hero" class="w-full h-full object-cover object-center filter brightness-[0.4] contrast-125">
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/60 to-gray-950/40"></div>
+        </div>
+
+        <!-- Top Header Bar -->
+        <div class="relative z-10 max-w-7xl mx-auto w-full px-6 py-6 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-gray-950 font-black text-xl shadow-lg">
+                    A1
+                </div>
+                <span class="text-lg md:text-xl font-black tracking-wider uppercase text-white">
+                    A1 Decorator & Suppliers
+                </span>
+            </div>
+            <div class="flex items-center space-x-3">
+                <a href="tel:+919491420236" class="bg-gray-900/80 hover:bg-gray-800 text-amber-400 border border-amber-500/30 px-4 py-2 rounded-xl text-sm font-semibold backdrop-blur transition-all">
+                    <i class="fa-solid fa-phone mr-1"></i> Call
+                </a>
+                <a href="https://wa.me/919491420236?text=Hello%20A1%20Decorator,%20I%20would%20like%20to%20inquire%20about%20event%20services." target="_blank" class="bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-xl text-sm font-bold shadow-lg transition-all">
+                    <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Center Hero Content -->
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center my-auto py-12">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-tight mb-6">
+                Welcome to <span class="bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-500 bg-clip-text text-transparent">A1 Decorator & Suppliers</span>
+            </h1>
+            <p class="text-base md:text-xl text-gray-300 max-w-2xl mx-auto font-normal mb-10 leading-relaxed">
+                Prop: S. Allabakash | Next to Food Nation and opposite the driving school
+            </p>
+
+            <!-- Menu Cards Directly in Landing Page -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mt-10">
+                <!-- Light Decoration Card -->
+                <div class="bg-gray-900/80 backdrop-blur border border-amber-500/30 rounded-2xl p-6 hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Light Decoration</h3>
+                        <p class="text-gray-300 text-xs leading-relaxed mb-6">
+                            Halogen setups, fairy string canopy lighting, entrance illumination, and bright focus lights for celebrations.
+                        </p>
+                    </div>
+                    <a href="light-decoration.html" target="_blank" class="text-amber-400 hover:text-amber-300 text-xs font-bold uppercase tracking-wider inline-flex items-center">
+                        View Light Gallery <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Stage Decoration Card (Links to decoration.html) -->
+                <!-- Stage Decoration Card (Links to stage-decoration.html) -->
+<div class="bg-gray-900/80 backdrop-blur border border-amber-500/30 rounded-2xl p-6 hover:border-amber-400 transition-all flex flex-col justify-between">
+    <div>
+        <div class="w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-crown"></i>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-2">Stage Decoration</h3>
+        <p class="text-gray-300 text-xs leading-relaxed mb-6">
+            Wedding mandaps, royal reception couches, elegant floral backdrops, and grand entrance arches.
+        </p>
+    </div>
+    <a href="stage-decoration.html" target="_blank" class="text-amber-400 hover:text-amber-300 text-xs font-bold uppercase tracking-wider inline-flex items-center">
+        Recent Decorations <i class="fa-solid fa-arrow-right ml-1"></i>
+    </a>
+</div>
+
+                <!-- Suppliers Card (Links to stock.html) -->
+                <div class="bg-gray-900/80 backdrop-blur border border-amber-500/30 rounded-2xl p-6 hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Suppliers (Rentals)</h3>
+                        <p class="text-gray-300 text-xs leading-relaxed mb-6">
+                            Sturdy chairs, tables, heavy-duty cooking vessels (degchi), water storage drums, and tents on rent.
+                        </p>
+                    </div>
+                    <a href="stock.html" target="_blank" class="text-amber-400 hover:text-amber-300 text-xs font-bold uppercase tracking-wider inline-flex items-center">
+                        View What is Available With Us <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer / Bottom Bar -->
+        <div class="relative z-10 text-center py-6 text-xs text-gray-400 border-t border-gray-800/60 bg-gray-950/80 backdrop-blur">
+            Call: +91 94914 20236 | &copy; 2026 A1 Decorator & Suppliers
+        </div>
+    </section>
+
+</body>
+</html>
